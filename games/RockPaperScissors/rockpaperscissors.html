@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="AlphaWolf's website, using a few technologies and a mix of skills for this one simple project." />
+    <meta name="author" content="AlphaWolf" />
+    <title>AlphaWolf</title>
+
+    <!-- css stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../../css/main.css" rel="stylesheet" />
+    <link href="game.css" rel="stylesheet" />
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">AlphaWolf</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseToggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapseToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="../../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../index.html#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../games.html">Games</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <!-- Games section -->
+
+    <section>
+
+      <div class="container-fluid colored-container">
+
+        <h1 class="container-heading">Rock Paper Scissors</h1>
+
+        <div class="game-box container">
+
+          <div class="menu">
+            <h2 class="menu-heading">Rock Paper Scissors</h2>
+            <button class="menu-btn play-btn btn btn-dark btn-lg">Play</button>
+          </div>
+
+          <div class="game hidden">
+
+            <h4 class="scores">Scores: 0</h4>
+            <h3 class="game-heading">Rock / Paper / Scissors</h3>
+
+            <div class="player">
+              <img id="rock" class="item-image" src="images/rock.png" alt="rock-image">
+              <img id="paper" class="item-image" src="images/paper.png" alt="paper-image">
+              <img id="scissors" class="item-image" src="images/scissors.png" alt="scissors-image">
+            </div>
+
+            <div class="end-round hidden">
+              <div class="end-round-player">
+                <h4>Player</h4>
+                <img class="chosen-item" src="" id="player-item" alt="player-item-image">
+              </div>
+              <div class="end-round-computer">
+                <h4>Computer</h4>
+                <img class="chosen-item" src="" id="computer-item" alt="computer-item-image">
+              </div>
+
+              <button class="end-round-btn play-btn btn btn-light btn-lg">Play again</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Footer section -->
+
+    <section>
+
+      <div class="container-fluid colored-container footer bg-dark">
+        <a class="copyright-icon" href=""><i class="fas fa-envelope-square"></i></a>
+        <a class="copyright-icon" href=""><i class="fab fa-facebook-square"></i></a>
+        <a class="copyright-icon" href=""><i class="fab fa-linkedin"></i></a>
+        <h6 class="copyright-heading">© copyright AlphaWolf</h6>
+      </div>
+
+    </section>
+
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js" type="text/javascript" charset="utf-8"></script>
+
+  </body>
+
+</html>

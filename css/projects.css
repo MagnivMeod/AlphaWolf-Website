@@ -1,0 +1,35 @@
+h5 {
+  font-size: 0.9375rem;
+  margin-bottom: 0.625rem;
+}
+
+a {
+  margin-right: 0.625rem;
+}
+
+.main-image {
+  width: 37.5rem;
+  border: solid;
+  border-radius: 5%;
+}
+
+.project-image {
+  width: 28.125rem;
+  height: 17.5rem;
+  border: solid;
+  border-color: black;
+  border-radius: 3%;
+}
+
+.project-box {
+  text-align: left;
+}
+
+.project-box {
+  margin: 8.125rem auto auto;
+}
+
+.project-box .text {
+  margin: 0;
+  width: 37.5rem;
+}

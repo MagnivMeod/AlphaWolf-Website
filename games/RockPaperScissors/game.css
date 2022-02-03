@@ -1,0 +1,59 @@
+.game-box {
+  border: solid;
+  border-color: black;
+  background-image: linear-gradient(white, black);
+  width: 700px;
+  height: 400px;
+  color: black;
+}
+
+.menu-btn {
+  width: 200px;
+  margin: 30px auto 10px;
+}
+
+.menu {
+  position: relative;
+  top: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.item-image {
+  width: 100px;
+  margin: 40px 20px;
+}
+
+.item-image:hover {
+  border: solid;
+  border-radius: 30%;
+}
+
+.chosen-item {
+  width: 100px;
+}
+
+.scores {
+  text-align: left;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.end-round-player, .end-round-computer {
+  display: inline-block;
+  margin: 20px;
+}
+
+.end-round-btn {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 40%;
+}

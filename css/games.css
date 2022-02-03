@@ -1,0 +1,20 @@
+.main-image {
+  border: solid;
+  border-radius: 5%;
+}
+
+.game-image {
+  width: 15.625rem;
+  border: solid;
+  border-color: black;
+  height: 9.375rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.game-block {
+  margin-bottom: 3.125rem;
+}
